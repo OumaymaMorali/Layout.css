@@ -1,0 +1,394 @@
+.firsth {
+  text-align: right;
+  position: relative;
+  right: 400px;
+  color: rgb(15, 228, 182);
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #747474;
+  font-weight: 400;
+}
+
+::selection {
+  background: #00b39b;
+}
+
+header {
+  font-size: 40px;
+  color: grey;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+}
+
+.image {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: 695px;
+}
+
+a {
+  color: grey;
+  font-size: 15px;
+}
+
+span {
+  color: rgb(15, 228, 182);
+}
+
+.flex-container {
+  display: flex;
+  align-content: flex-end;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.navbar-brand {
+  margin-right: 700px;
+  color: grey;
+}
+
+.flex-box {
+  display: flex;
+}
+
+.flexy {
+  display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.secondflex {
+  display: flex;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.anotherflex {
+  display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 18px;
+  font-size: 20px;
+  background-color: cyan;
+  justify-content: space-between;
+  border-style: solid;
+  border-radius: 5%;
+  box-sizing: border-box;
+}
+
+.F {
+  display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #00b39b;
+  font-size: 30px;
+}
+.FW {
+  display: flex;
+  color: #00b39b;
+  font-size: 40px;
+  flex-direction: row;
+  background: rgb(122, 245, 239);
+  border-style: solid;
+  flex-wrap: wrap;
+  margin-bottom: 5%;
+  border-color: rgb(122, 245, 239);
+  border-width: 200px;
+}
+
+.FW > span {
+  color: grey;
+  font-size: 20px;
+}
+.dropdown {
+  border: none;
+  display: flex;
+}
+
+ul.Flex {
+  display: flex;
+  background-color: rgb(44, 141, 221);
+  border-style: solid;
+  justify-content: space-between;
+  border-radius: 5%;
+  margin-left: 200px;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  color: white;
+}
+
+img.computer {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  left: 200px;
+}
+
+img.screen {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  left: 150px;
+}
+
+div.links {
+  display: flex;
+  position: relative;
+  left: 900px;
+  align-items: center;
+  margin-bottom: 20%;
+  bottom: 40px;
+}
+
+img.we {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  right: 700px;
+  top: 26px;
+}
+
+img.Warsaw {
+  height: 400px;
+  width: 400px;
+  position: relative;
+  left: 200px;
+  transition: box-shadow 1s;
+}
+img.Warsaw:hover {
+  box-shadow: 20px 20px#c9c1c1b6;
+}
+
+button.opening {
+  color: white;
+  background-color: rgb(80, 67, 255);
+  position: relative;
+  left: 470px;
+  bottom: 200px;
+  border-radius: 10%;
+}
+p.Warsaw {
+  position: relative;
+  left: 200px;
+}
+
+img.barcelona {
+  height: 400px;
+  width: 400px;
+  position: relative;
+  left: 500px;
+  bottom: 440px;
+  transition: box-shadow 1s;
+}
+
+img.barcelona:hover {
+  box-shadow: 20px 20px#c9c1c1b6;
+}
+
+p.Barcelona {
+  position: relative;
+  left: 650px;
+  bottom: 440px;
+}
+
+button.openingb {
+  color: white;
+  background-color: rgb(80, 67, 255);
+  position: relative;
+  left: 900px;
+  bottom: 450px;
+  border-radius: 10%;
+}
+
+img.istanbul {
+  height: 400px;
+  width: 400px;
+  position: relative;
+  left: 200px;
+  bottom: 440px;
+  transition: box-shadow 1s;
+}
+
+img.istanbul:hover {
+  box-shadow: 20px 20px#c9c1c1b6;
+}
+
+button.openingi {
+  color: white;
+  background-color: rgb(80, 67, 255);
+  position: relative;
+  left: 450px;
+  bottom: 650px;
+  border-radius: 10%;
+}
+
+p.istanbul {
+  position: relative;
+  left: 200px;
+  bottom: 440px;
+}
+
+img.rome {
+  height: 400px;
+  width: 400px;
+  position: relative;
+  left: 500px;
+  bottom: 880px;
+  transition: box-shadow 1s;
+}
+
+button.openingR {
+  color: white;
+  background-color: rgb(80, 67, 255);
+  position: relative;
+  left: 900px;
+  bottom: 1080px;
+  border-radius: 10%;
+}
+
+p.rome {
+  position: relative;
+  left: 700px;
+  bottom: 880px;
+}
+
+img.rome:hover {
+  box-shadow: 20px 20px#c9c1c1b6;
+}
+
+img.mexico {
+  height: 400px;
+  width: 400px;
+  position: relative;
+  left: 60px;
+  bottom: 850px;
+  transition: box-shadow 1s;
+}
+
+button.openingm {
+  color: white;
+  background-color: rgb(80, 67, 255);
+  position: relative;
+  left: 470px;
+  bottom: 1050px;
+  border-radius: 10%;
+}
+
+p.mexico {
+  position: relative;
+  left: 200px;
+  bottom: 820px;
+}
+
+img.mexico:hover {
+  box-shadow: 20px 20px#c9c1c1b6;
+}
+
+img.curitibia {
+  height: 400px;
+  width: 400px;
+  position: relative;
+  left: 500px;
+  bottom: 1290px;
+  transition: box-shadow 1s;
+}
+
+button.openingc {
+  color: white;
+  background-color: rgb(80, 67, 255);
+  position: relative;
+  left: 900px;
+  bottom: 1300px;
+  border-radius: 10%;
+}
+
+p.curitibia {
+  position: relative;
+  left: 650px;
+  bottom: 1280px;
+}
+
+img.curitibia:hover {
+  box-shadow: 20px 20px#c9c1c1b6;
+}
+
+div > a {
+  color: rgb(78, 130, 207);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+p.foot {
+  display: flex;
+  justify-content: center;
+}
+
+.fle {
+  text-align: right;
+  position: relative;
+  right: 300px;
+  color: rgb(15, 228, 182);
+}
+
+p.improve {
+  margin-left: 500px;
+  margin-right: 500px;
+  font-size: 15px;
+  color: grey;
+  line-height: 2;
+}
+
+div.image-flex {
+  margin-left: 100px;
+}
+
+div.flag {
+  color: rgb(15, 228, 182);
+  margin-left: 800px;
+  border-style: solid;
+  margin: 0;
+  border-width: 5%;
+}
+
+h1.flag {
+  font-size: 20px;
+  position: relative;
+  left: 400px;
+  top: 20px;
+}
+
+p.flag {
+  color: grey;
+  margin-left: 200px;
+  margin-right: 200px;
+  position: relative;
+  left: 180px;
+  top: 20px;
+}
+
+img.flag {
+  position: relative;
+  left: 350px;
+  top: 30px;
+}
